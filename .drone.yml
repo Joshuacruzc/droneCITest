@@ -4,11 +4,6 @@ workspace:
 
 pipeline:
   test:
-    image: golang:latest
+    image: golang
     commands:
-      - go vet
-      - go test -v -cover
-  build:
-    image: golang:latest
-    commands:
-      - go build
+      - echo "WaoW"
