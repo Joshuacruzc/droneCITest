@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/drone-demos/drone-with-go
+  path: src/github.com/Joshuacruzc/droneCITest
 
 pipeline:
   test:
