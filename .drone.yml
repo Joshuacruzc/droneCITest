@@ -4,6 +4,6 @@ workspace:
 
 pipeline:
   test:
-    image: golang
+    image: .
     commands:
       - echo "WaoW"
