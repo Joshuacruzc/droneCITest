@@ -1,9 +1,15 @@
-workspace:
-  base: /go
-  path: src/github.com/Joshuacruzc/droneCITest
+kind: pipeline
+type: docker
+name: default
 
-pipeline:
-  test:
-    image: .
-    commands:
-      - echo "WaoW"
+steps:
+
+- name: build
+
+  image: golang
+
+  commands:
+
+  - go build
+
+  - go test
